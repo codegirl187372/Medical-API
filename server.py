@@ -5,7 +5,7 @@ import json
 from pymodm.connection import connect
 from config import *
 from models import Symptoms, Issues
-import googlemaps
+import googlemaps 
 from flask import Flask, request, jsonify
 from flask_restful import Resource, Api
 from rasa_nlu.training_data import load_data
