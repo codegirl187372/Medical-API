@@ -1,7 +1,7 @@
 import requests
 import hmac, hashlib
 import base64
-import json
+import json 
 from pymodm.connection import connect
 from config import *
 from models import Symptoms, Issues
